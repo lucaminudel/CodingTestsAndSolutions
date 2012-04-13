@@ -30,7 +30,7 @@ The description of the test and the solution code is [here] (https://github.com/
 ## An interesting algorithm
 The challenge is to find the optimal solution on a problem that admit a very large number of possible solutions that cannot be enumerated because time constraint.
 The algorith approximate a space defined by the pobability of many dependant variables with the probability of independent variable and then apply a genetic algorithm to serch for the optimum without enumerating all the remaining possible solutions.
-Here is the code ( only the linked algorithm and the related test is code of myne) :
+Here is the code (only the linked algorithm and the related test is code of mine) :
 
 -  https://github.com/lucaminudel/BattleshipAIcodingCompetition/tree/master/Battleship/Opponents/Nebuchadnezzar
 
