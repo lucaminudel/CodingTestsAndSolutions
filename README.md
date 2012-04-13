@@ -26,6 +26,20 @@ The solution design goal here is to show the ability to detail every single conc
 
 The description of the test and the solution code is [here] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/CodingTest2).
 
+
+## An interesting algorithm
+The challenge is to find the optimal solution on a problem that admit a very large number of possible solutions that cannot be enumerated because time constraint.
+The algorith approximate a space defined by the pobability of many dependant variables with the probability of independent variable and then apply a genetic algorithm to serch for the optimum without enumerating all the remaining possible solutions.
+Here is the code ( only the linked algorithm and the related test is code of myne) :
+
+-  https://github.com/lucaminudel/BattleshipAIcodingCompetition/tree/master/Battleship/Opponents/Nebuchadnezzar
+
+## An interesting open-source project
+This open-source project that I started and I lead in 2002 to add to C# 1.0 the NullableTypes that will be added only later to C# 2.0:
+
+-  http://sourceforge.net/projects/nullabletypes/
+
+
 # Samples in other languages
 Here follow simpler and smaller code samples in languages other than C#.
 
