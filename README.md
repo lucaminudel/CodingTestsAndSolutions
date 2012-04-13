@@ -1,8 +1,8 @@
 # C# Samples
 
 
-# Other languages samples
-Here follow  simpler and smaller code samples in languages other than C#.
+# Samples in other languages
+Here follow simpler and smaller code samples in languages other than C#.
 
 ## JavaScript Samples
 An experiment with JavaScript with some DOM programming, made it as a spike/exploration with a pragmatic approach. There are unit tests and integration tests, on the other side the MVC pattern and the Acceptance tests are not there yet.
@@ -22,7 +22,7 @@ Here the solution extended to add 5 extra rules ( http://en.wikipedia.org/wiki/G
 -  tests: https://gist.github.com/1725633 
 
 ## Java Samples
-Some Java code done for [Processing] (http://processing.org/) : 
+Some hobby coding with [Processing] (http://processing.org/) : 
 
--  the video here http://blogs.ugidotnet.org/luKa/archive/0001/01/01/rain-of-colors-into-van-gogh-self-portrait-1886-again.aspx 
--  and here you can browse the Java/Processing source code http://www.openprocessing.org/visuals/?visualID=6689
+-  here to browse the Java/Processing source code and download it http://www.openprocessing.org/visuals/?visualID=6689
+-  here to watch the resulting video animation http://blogs.ugidotnet.org/luKa/archive/0001/01/01/rain-of-colors-into-van-gogh-self-portrait-1886-again.aspx 

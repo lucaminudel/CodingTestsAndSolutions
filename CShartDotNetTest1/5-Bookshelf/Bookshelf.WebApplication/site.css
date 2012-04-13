@@ -1,0 +1,19 @@
+﻿.defaultStyle
+{
+	font-family: Verdana;
+}
+.errorStyle
+{
+	font-family: Verdana;
+	color:red;
+}
+.messageStyle
+{
+	font-family: Verdana;
+	color:royalblue;
+}
+.commandStyle
+{
+	font-family: Verdana;
+	color:blue;
+}

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookshelf", "Bookshelf\Bookshelf.csproj", "{C64A5373-C61E-4088-A3F6-51D5D47F4F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookshelf.Tests", "Bookshelf.Tests\Bookshelf.Tests.csproj", "{D5273823-5FB4-4B93-A179-5FF9EABA214D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{75ADC737-5025-41F2-BA0F-059ED9370C39}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Moq.dll = lib\Moq.dll
+		lib\nunit.framework.dll = lib\nunit.framework.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookshelf.WebApplication", "Bookshelf.WebApplication\Bookshelf.WebApplication.csproj", "{F7238FA7-1AA2-49B8-8CF9-1B9808E40714}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DbScripts", "DbScripts", "{134CFBEA-CBBB-4B6B-B730-7FA740603790}"
+	ProjectSection(SolutionItems) = preProject
+		DbScripts\CreateDb.sql = DbScripts\CreateDb.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C64A5373-C61E-4088-A3F6-51D5D47F4F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64A5373-C61E-4088-A3F6-51D5D47F4F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64A5373-C61E-4088-A3F6-51D5D47F4F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64A5373-C61E-4088-A3F6-51D5D47F4F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5273823-5FB4-4B93-A179-5FF9EABA214D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5273823-5FB4-4B93-A179-5FF9EABA214D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5273823-5FB4-4B93-A179-5FF9EABA214D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5273823-5FB4-4B93-A179-5FF9EABA214D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7238FA7-1AA2-49B8-8CF9-1B9808E40714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7238FA7-1AA2-49B8-8CF9-1B9808E40714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7238FA7-1AA2-49B8-8CF9-1B9808E40714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7238FA7-1AA2-49B8-8CF9-1B9808E40714}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
