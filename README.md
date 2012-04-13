@@ -7,7 +7,14 @@ The last test give the opportunity to demonstrate experiences in design/architec
 
 The description of the test, a readme with comments for the solutions and the solutions code is [here] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/CShartDotNetTest1).
 
-   
+## Second test and related solution
+The goal of this test is to verify coding skills, the problem to solve involve input form command line, computation and output in the console.
+The test is complete and pretty small and give the opportunity to show code written with TDD and compare two solutions:
+
+-  a solution whose design details every single concept and responsibilities, making it possible to change or evolve every aspect making only local changes to the code
+-  a simple solution whose design details only main concepts and responsibilities, with the priority to balance between simplicity and maintainability 
+
+The description of the test, the two solutions code with their readme are [here] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/CodingTest).
 
 # Samples in other languages
 Here follow simpler and smaller code samples in languages other than C#.
