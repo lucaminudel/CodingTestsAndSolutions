@@ -1,5 +1,13 @@
 # C# Samples
 
+## First test and related solutions
+The goal of this test is to verify language skills in C # and SQL and understanding of Microsoft. NET Framework.
+The first 4 tests  give the opportunity to show problem solving approach on small problems than looks simpler then they actually really are.
+The last test give the opportunity to demonstrate experiences in design/architecture and back-end programming for real Enterprise Application.
+
+The description of the test, a readme with comments for the solutions and the solutions code is [here] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/CShartDotNetTest1).
+
+   
 
 # Samples in other languages
 Here follow simpler and smaller code samples in languages other than C#.
