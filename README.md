@@ -69,9 +69,9 @@ Although more basic solutions could fit the purpose on many occasions.
 If you still like vintage paper books, you also need a bookshelf!
 
 Look at:
-- [The assignment] ()
-- [The comments to the solution] ()
-- [The code] ()
+- [The assignment] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/Architecture/Bookshelf/The%20Assignment.pdf?raw=true)
+- [The comments to the solution] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/Architecture/Bookshelf/The%20Solution%20-%20%20ReadMe.txt)
+- [The code] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/Architecture/Bookshelf)
 
 
 ### Move IT Moving company, Ruby, Sinatra, in Swedish
@@ -82,10 +82,10 @@ The presentation explain the technical and process decision given the goal and t
 
 
 Look at:
-- [The assignment] ()
-- [The comments to the solution] ()
-- [The code] ()
-- [The presentation] ()
+- [The assignment] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/Architecture/MoveIT/The%20Assignment.pdf?raw=true)
+- [The comments to the solution] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/Architecture/MoveIT/The%20Solution%20-%20%20ReadMe.txt)
+- [The presentation] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/Architecture/MoveIT/docs/MoveIT%20%20flyttfirman.pdf?raw=true)
+- [The code] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/Architecture/MoveIT)
 
 
 
