@@ -1,5 +1,4 @@
-Here follow solutions to various coding tests I collected.
-They take few hours to few days and are a way to compare your coding style to others or to how it change over time.
+Here follow solutions to various coding tests I collected. They take few hours to few days.
 
 
 # Design and testing
@@ -37,14 +36,14 @@ Look at:
 ### Multiplication Table, C# 
 Time to re-learn multiplication tables!
 
-Look at: [the assignment.] ()
+Look at: [the assignment.] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/DesignAndTdd/MultiplicationTable/The%20Assignment.pdf?raw=true)
 
 The design of the "simple" solution details main concepts and responsibilities and break the main run-time dependencies.
 In this design the priority is the balance between simplicity and separation of concerns and run-time dependencies.
 
 Look at the Simple solution:
-- [The comments to the solution] ()
-- [The code] ()
+- [The comments to the solution] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/DesignAndTdd/MultiplicationTable/The%20Simple%20Solution%20-%20%20ReadMe.txt)
+- [The code] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/DesignAndTdd/MultiplicationTable/ReQtest.MultiplicationTable.Simple)
 
 
 
@@ -52,8 +51,8 @@ The design of the "complete" solution details every single concept and responsib
 Because of this is possible to change or evolve every part of the code making only local changes.
 
 Look at the complete solution:
-- [The comments to the solution] ()
-- [The code] ()
+- [The comments to the solution] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/DesignAndTdd/MultiplicationTable/The%20Solution%20-%20%20ReadMe.txt)
+- [The code] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/DesignAndTdd/MultiplicationTable/ReQtest.MultiplicationTable)
 
 
 
