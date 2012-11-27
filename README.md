@@ -95,9 +95,9 @@ Look at:
 These coding tests focus on solving small coding problems the look simpler then they actually are.
 
 Look at:
-- [The assignment] ()
-- [The comments to the solution] ()
-- [The code] ()
+- [The assignment] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/SmallProblems/The%20Assignment.pdf?raw=true)
+- [The comments to the solution] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/SmallProblems/The%20Solution%20-%20%20ReadMe.txt)
+- [The code] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/SmallProblems)
 
 
 
