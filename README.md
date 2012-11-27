@@ -1,67 +1,106 @@
-# C# Samples
 
-## First test and related solutions
-The goal of this test is to verify language skills in C # and SQL and understanding of Microsoft. NET Framework.
-The first 4 tests  give the opportunity to show problem solving approach on small problems than looks simpler then they actually really are.
-The last test give the opportunity to demonstrate experiences in design/architecture and back-end programming for real Enterprise Application.
+Here follow solutions to various coding tests I collected.
+They take few hours to few days and are a way to compare your coding style to others or to how it change over time.
 
-The description of the test, a readme with comments for the solutions and the solutions code is [here] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/CShartDotNetTest1).
 
-## Second test and related solution
-The goal of this test is to verify coding skills, the problem to solve involve input from the command line, computation and output in the console.
-The test is complete and pretty small and give the opportunity to show code written with TDD and compare two solutions:
+# Design and testing
+These coding tests are all focused on code design, clean code and testing.
 
--  a solution whose design details every single concept and responsibilities, making it possible to change or evolve every aspect making only local changes to the code
--  a simple solution whose design details only main concepts and responsibilities, with the priority to balance between simplicity and maintainability 
-
-The description of the test, the two solutions code with their readme are [here] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/CodingTest).
+The goal of these coding tests is to verify coding skills and the ability to deal with requirements ambiguity and error conditions.
+The problems to solve involve input from the command line, computation and output in the console.
+The solutions development has been driven by unit tests, acceptance tests and integration tests.
 
 
 
-## Third test and related solution
-The goal of this test is to verify coding skills too, the problem to solve involve input from the command line, computation and output in the console.
-The computation is a little more complex so a single solution is provided here.
+## Office Cleaner, C#
+Here Rosie the Robot Maid clean the office!
 
-The solution design goal here is to show the ability to detail every single concept and responsibilities and to develp the solution driven by unit acceptance unit and integration test.
+The design of the solution try to detail every single concept and responsibilities and to break dependencies between different responsibilities.
 
-The description of the test and the solution code is [here] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/CodingTest2).
-
-
-## An interesting algorithm
-The challenge is to find the optimal solution on a problem that admit a very large number of possible solutions that cannot be enumerated because time constraint.
-The algorith approximate a space defined by the pobability of many dependant variables with the probability of independent variable and then apply a genetic algorithm to serch for the optimum without enumerating all the remaining possible solutions.
-Here is the code (only the linked algorithm and the related test is code of mine) :
-
--  https://github.com/lucaminudel/BattleshipAIcodingCompetition/tree/master/Battleship/Opponents/Nebuchadnezzar
-
-## An interesting open-source project
-This open-source project that I started and I lead in 2002 to add to C# 1.0 the NullableTypes that will be added only later to C# 2.0:
-
--  http://sourceforge.net/projects/nullabletypes/
+Look at:
+- The assignment
+- The comments to the solution
+- The code
 
 
-# Samples in other languages
-Here follow simpler and smaller code samples in languages other than C#.
+## Mars Rover, Ruby
+A squad of robotic rovers are to be landed by NASA on Mars! An later on a sunny beach.
 
-## JavaScript Samples
-An experiment with JavaScript with some DOM programming, made it as a spike/exploration with a pragmatic approach. There are unit tests and integration tests, on the other side the MVC pattern and the Acceptance tests are not there yet.
+The design of this solution try to find a good balance between simplicity and separation of concerns and run-time dependencies.
 
--  the code https://github.com/lucaminudel/tweeeeeeeeeet
--  the code online http://www.luca.minudel.it/tweeeeeeeeeet/
 
-## Ruby Samples
-A simple Ruby code sample, the solution of the Greed dice game from the Ruby Koan exercises.
-Here is the initial solution: 
+Look at:
+- The assignment
+- The comments to the solution
+- The code
 
--  http://pastie.org/3146621
 
-Here the solution extended to add 5 extra rules ( http://en.wikipedia.org/wiki/Greed_(dice_game) ) with the goal to check how the initial design support the evolution:
 
--  code: https://gist.github.com/1617603
--  tests: https://gist.github.com/1725633 
+## Multiplication Table, C#
+Time to re-learn multiplication tables!
 
-## Java Samples
-Some hobby coding with [Processing] (http://processing.org/) : 
+Look at: the assignment.
 
--  here to browse the Java/Processing source code and download it http://www.openprocessing.org/visuals/?visualID=6689
--  here to watch the resulting video animation http://blogs.ugidotnet.org/luKa/archive/0001/01/01/rain-of-colors-into-van-gogh-self-portrait-1886-again.aspx 
+The design of the "simple" solution details main concepts and responsibilities and break the main run-time dependencies.
+In this design the priority is the balance between simplicity and separation of concerns and run-time dependencies.
+
+Look at the Simple solution:
+- The comments to the solution
+- The code
+
+
+
+The design of the "complete" solution details every single concept and responsibilities and without duplication.
+Because of this is possible to change or evolve every part of the code making only local changes.
+
+Look at the complete solution:
+- The comments to the solution
+- The code
+
+
+
+# Architecture
+These coding tests focus more on the architecture of the solution.
+
+The solutions show some of the characteristics of a real Enterprise Application and demonstrate experiences in design/architecture and back-end programming.
+I.e. looks at DB design, concurrency and concurrency conflicts management, support for hot-deployment or load-balancing, modularization, support for different environments (prod, stage, test, ...), global error catching and logging, authentication and authorization.
+Although more basic solutions could fit the purpose on many occasions.
+
+
+
+## Bookshelf, C#, ASP.NET, SqlServer
+If you still like vintage paper books, you also need a bookshelf!
+
+Look at:
+- The assignment
+- The comments to the solution
+- The code
+
+
+## Move IT Moving company, Ruby, Sinatra, in Swedish
+Time to move!
+
+Here the extra challenge to spot the inconsistency in the requirements and the error in the estimation.
+The presentation explain the technical and process decision given the goal and the characteristic of the specific application.
+
+
+Look at:
+- The assignment
+- The comments to the solution
+- The code
+- The presentation
+
+
+
+
+
+# Small Problems, C#
+These coding tests focus on solving small coding problems the look simpler then they actually are.
+
+Look at:
+- The assignment
+- The comments to the solution
+- The code
+
+
+

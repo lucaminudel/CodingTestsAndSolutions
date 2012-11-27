@@ -1,0 +1,58 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script src="/missingmethods.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/offer_request_controller.js" type="text/javascript" charset="utf-8"></script>	
+	<link href="/main.css" rel="stylesheet" type="text/css">
+	<title>Prisförslag - MoveIT kundportal</title>
+</head>
+<body>
+	<%= erb :returning_customer_menu, :locals => { :model => model } %>
+	<div id="displayArea">	
+		
+
+		<div id="display">
+			<br>
+			<h1> Prisförslag för bohagsflytt</h1>
+			<br>
+			<br>
+			<br>
+			<div id="offer_request" style="width:20em;float:left;">
+				Offertnummer: <span id="offer_id"><%=model.offer_user_friendly_id%></span><br>
+				<br>
+				<br>
+				<span id="first_name"><%=model.first_name%></span> <span id="last_name"><%=model.last_name%></span><br>
+				<span id="email"><%=model.email%></span><br>
+				<br>
+				<br>
+				Från: <span id="from"><%=model.from%></span><br>
+				Till: <span id="to"><%=model.to%></span><br>
+				Avstånd: <span id="distance"><%=model.distance%></span><br>
+				<br>
+				<br>
+				Bostådens yta: <span id="house_area"><%=model.house_area%></span><br>
+				Vind/Källare: <span id="basement_garret_area"><%=model.basement_garret_area%></span><br>
+				<br>
+				<br>
+				Pianoflytt: <span id="with_piano"><%= model.with_piano ? "Ja" : "Nej"%></span><br>					
+			</div>
+			<div id="offer" style="width:20em;float:left;">
+				<span id="offerPrice">Upskattat pris: <br>
+				<span id="price_including_vat"><%=model.price_including_vat%></span> kr inkl moms
+				</span><br>
+				Pris exkl moms:  <span id="price"><%=model.price%></span> kr<br>
+				<br>
+				<br>
+				Vi sparar ditt prisförslag 90 dagar.<br>
+				För att se prisförlaget igen, besök: <br>
+				<a id="offer_url" href="<%=model.offer_url%>">here</a></span><br>						
+				<br>
+				<br>
+				Om du har frågor, kontakta<br>
+				flytt@moveit.se<br>					
+			</td>
+		</span>
+	</div>
+
+</body>
