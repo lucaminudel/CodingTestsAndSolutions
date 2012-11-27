@@ -28,9 +28,9 @@ The design of this solution try to find a good balance between simplicity and se
 
 
 Look at:
-- [The assignment] ()
-- [The comments to the solution] ()
-- [The code] ()
+- [The assignment] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/DesignAndTdd/mars_rovers/The%20Assignment.pdf?raw=true)
+- [The comments to the solution] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/DesignAndTdd/mars_rovers/The%20Solution%20-%20%20ReadMe.txt)
+- [The code] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/DesignAndTdd/mars_rovers)
 
 
 
