@@ -1,0 +1,15 @@
+require 'rake/testtask'
+
+desc "Default task run tests"
+task :default => [:test]
+
+Rake::TestTask.new do |t|
+	t.test_files = FileList['test/*_test.rb']
+end
+
+desc "Run Mars Rovers and wait for input."
+task :run do
+	ruby 'mars_rovers_app.rb'
+end
+
+

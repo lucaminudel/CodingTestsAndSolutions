@@ -1,0 +1,44 @@
+Acceptanskriterier för att lösa uppgiften
+-----------------------------------------------
+
+- I dati vengono salvati in modo che un venditore in futuro possa seguire i clienti
+- Il calcolo del prezzo deve essere come di seguito specificato.
+- Dopo che l'utente compilato i dati di preventivo, ottiene un URL a cui tornare a visionare il proprio preventivo
+- Ogni cliente dovrebbe essere in grado di accedere e vedere i propri preventivi.
+
+
+Avstånd 
+-------------------------------------
+[0, 49Km]    = 1000 kr + 10 kr/km 
+[50Km, 99Km] = 5000 kr + 8 kr/km 
+[100Km, ...] = 10000 kr + 7 kr/km 
+
+
+Area 	
+--------------------------------------
+[0, 49mq]      = 1 car = * 1
+[50mq, 99mq]   = 2 car = * 2
+[100mq, 149mq] = 3 car = * 3
+[150mq, 199mq] = 4 car = * 4
+[200mq, 249mq] = 5 car = * 5
+[250mq, 299mq] = 6 car = * 6
+
+
+vind = 2x mq
+
+
+Piano 
+----------------------------
+Piano Yes = + 5000 Kr
+
+
+
+
+Avstånd Area 	Piano 	Pris
+----------------------------------------------------------
+35	30	Ja	6350    |  1000 + 10*35 = 1350, 1car = *1, +5000 === 6350
+280	135	Nej	7740    |  10000 + 7*280 = 11960, 3car = *3, +0 === 35880 ????????
+100	250	Ja	58500   |  10000 + 7*100 = 10700, 5car = *5-6, +5000 === 58500 ??????????
+75	95	Nej	11200   |  5000 + 75*8= 5600, 2car = *2, +0 === 11200
+
+

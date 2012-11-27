@@ -1,0 +1,83 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script src="/missingmethods.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/offer_request_controller.js" type="text/javascript" charset="utf-8"></script>	
+	<link href="/main.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">					
+		
+		var controller = CreateOfferRequestController();		
+		
+	</script>
+	<title>Förebyggande - MoveIT kundportal</title>
+</head>
+<body>
+	<%= erb :returning_customer_menu, :locals => { :model => model } %>
+	<div id="displayArea">	
+		
+
+		<div id="display">
+			<br>
+			<h1> Prisförslag för bohagsflytt </h1>
+			<br>
+			<div id="ErrorMessage" class="errors" style='<%= model.is_input_valid? ? "display: none;" : "display: block;" %>'>
+				<div id="mandatoryErrorMessageText" ><%= model.mandatory_error_message %></div>
+				<div id="contentErrorMessageText" ><%= model.content_error_message %></div>			
+			</div>
+			<br>
+			<br>
+			<div id="Edit" class="editor" >
+				<form id="editForm" action="offerrequest" method="post" onsubmit="return controller.doPostBack()"> 
+
+					<label for="from">Flytt från</label><span id="hint"> (Adress, Ort, Land)</span><br>
+					<input type="text" id="from" name="from" size="60" maxlength="100" value="<%= h model.from%>">
+					<br>
+					<br>
+					<label for="to">Flytt till</label><span id="hint"> (Adress, Ort, Land)</span><br>
+					<input type="text" id="to" name="to" size="60" maxlength="100" value="<%= h model.to%>">
+					<br>
+					<br>
+					<label for="distance">Avstånd</label><span id="hint"> (Km)</span><br>
+					<input type="text" id="distance" name="distance" size="4" maxlength="6" value="<%= h model.distance%>">
+					<br>
+					<br>
+					<br>
+					<br>
+					<label for="house_area">Bostadens yta</label><span id="hint"> (Kvadratmeter, utan vindsutrymmen och källare)</span><br>
+					<input type="text" id="house_area" name="house_area" size="4" maxlength="6" value="<%= h model.house_area%>">
+					<br>
+					<br>
+					<label for="basement_garret_area">Vind/Källare</label><span id="hint"> (Kvadratmeter)</span><br>
+					<input type="text" id="basement_garret_area" name="basement_garret_area" size="4" maxlength="6" value="<%= h model.basement_garret_area%>">
+					<br>
+					<br>
+					<br>
+					<br>
+					<label for="piano">Pianoflytt: </label> <input type="checkbox" id="piano" name="piano" value="true" <%= "checked" if model.piano == "true" %>/> 
+					<br>
+					<br>
+					<br>
+					<br>
+					<label for="first_name">Förnamn</label><br>
+					<input type="text" id="first_name" name="first_name" size="20" maxlength="20" value="<%= h model.first_name%>" <%="readonly" if model.is_new_customer? == false%>>
+					<br>
+					<br>
+					<label for="from">Efternamn</label><br>
+					<input type="last_name" id="last_name" name="last_name" size="20" maxlength="20" value="<%= h model.last_name%>" <%="readonly" if model.is_new_customer? == false%>>
+					<br>
+					<br>
+					<label for="email">E-postadress</label><br>
+					<input type="text" id="email" name="email" size="40" maxlength="40" value="<%= h model.email%>" <%="readonly" if model.is_new_customer? == false%>>
+					<br>
+					<br>
+					<br>
+					<br>
+					<a id="sendRequest" class="button" href="#" title="Klicka här för att be om offert." onClick="controller.doPostBack()">Få offert &gt;&gt;&gt;</a>
+				</form>
+			</div>
+			
+		</div>
+	</div>
+
+</body>

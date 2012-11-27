@@ -1,0 +1,54 @@
+require 'rake/testtask'
+
+
+desc "Default task run MoveIT web app"
+task :default => [:run]
+
+
+TARGET_DIR = "database"
+BACKUP_DIR = "database.bak"
+SOURCE_DIR = "database.init/."
+SOURCE_FILES = FileList["./database.init/**/*.*"]
+URL = "http://localhost:4567/"
+
+file TARGET_DIR => SOURCE_FILES do
+	create_empty_db(SOURCE_DIR, TARGET_DIR)
+end
+
+
+desc "Run MoveIT web app on port 4567"
+task :run => TARGET_DIR do
+	ruby "moveit_webapp.rb"
+end
+
+desc "Run MoveIT web app on port 80"
+task :run_prod => TARGET_DIR do
+	ruby "moveit_webapp.rb -p80 -eproduction"
+end
+
+Rake::TestTask.new do |t|
+	t.test_files = FileList['test/*_test.rb']
+end
+
+desc "Run the acceptance tests! Star the web app with 'rake run' first."
+task :atest => TARGET_DIR do
+	ruby "test/acceptance_tests.rb"
+end
+
+
+desc "Recreate the db from scratch, existing db is copied to a backup directory."
+task :db_reset do
+	FileUtils.rm_rf BACKUP_DIR if File.exists?(TARGET_DIR) && File.exists?(BACKUP_DIR)
+	mv TARGET_DIR, BACKUP_DIR if File.exists?(TARGET_DIR)
+	create_empty_db(SOURCE_DIR, TARGET_DIR)
+end
+
+
+def create_empty_db(source_dir, target_dir)
+  mkdir_p target_dir
+  cp_r source_dir, target_dir
+end
+
+def windows?
+	RUBY_PLATFORM.downcase.include?("mswin") || RUBY_PLATFORM.downcase.include?("mingw32")
+end

@@ -1,0 +1,14 @@
+	<% if model.is_new_customer? == false %>
+	<div id="menuArea" style="display: block;">
+		<div id="menuItems" style="left: 0px;">
+			Hej <%= h model.first_name + " " + model.last_name %>
+			&nbsp;&nbsp;-  
+			
+			<a id="offers_list" href="/listoffers"  >Lista alla offerter</a>
+			<a id="offer_request" href="/offerrequest">Få en ny offert</a>
+		</div>
+	</div>
+	<div id="logoutButton" style="display: block;">
+		<a id="logoutLink" class="button" href="/logout" style="display: block;">Inte  <%= h model.first_name + " " + model.last_name %> ?</a>
+	</div>
+	<% end %>
