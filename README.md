@@ -1,4 +1,3 @@
-
 Here follow solutions to various coding tests I collected.
 They take few hours to few days and are a way to compare your coding style to others or to how it change over time.
 
@@ -12,41 +11,40 @@ The solutions development has been driven by unit tests, acceptance tests and in
 
 
 
-## Office Cleaner, C#
+### Office Cleaner, C# 
 Here Rosie the Robot Maid clean the office!
 
 The design of the solution try to detail every single concept and responsibilities and to break dependencies between different responsibilities.
 
 Look at:
-- The assignment
-- The comments to the solution
-- The code
+- [The assignment] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/DesignAndTdd/OfficeCleaner/The%20Assignment.pdf?raw=true)
+- [The code] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/DesignAndTdd/OfficeCleaner)
 
 
-## Mars Rover, Ruby
+### Mars Rover, Ruby
 A squad of robotic rovers are to be landed by NASA on Mars! An later on a sunny beach.
 
 The design of this solution try to find a good balance between simplicity and separation of concerns and run-time dependencies.
 
 
 Look at:
-- The assignment
-- The comments to the solution
-- The code
+- [The assignment] ()
+- [The comments to the solution] ()
+- [The code] ()
 
 
 
-## Multiplication Table, C#
+### Multiplication Table, C# 
 Time to re-learn multiplication tables!
 
-Look at: the assignment.
+Look at: [the assignment.] ()
 
 The design of the "simple" solution details main concepts and responsibilities and break the main run-time dependencies.
 In this design the priority is the balance between simplicity and separation of concerns and run-time dependencies.
 
 Look at the Simple solution:
-- The comments to the solution
-- The code
+- [The comments to the solution] ()
+- [The code] ()
 
 
 
@@ -54,8 +52,8 @@ The design of the "complete" solution details every single concept and responsib
 Because of this is possible to change or evolve every part of the code making only local changes.
 
 Look at the complete solution:
-- The comments to the solution
-- The code
+- [The comments to the solution] ()
+- [The code] ()
 
 
 
@@ -68,16 +66,16 @@ Although more basic solutions could fit the purpose on many occasions.
 
 
 
-## Bookshelf, C#, ASP.NET, SqlServer
+### Bookshelf, C#, ASP.NET, SqlServer
 If you still like vintage paper books, you also need a bookshelf!
 
 Look at:
-- The assignment
-- The comments to the solution
-- The code
+- [The assignment] ()
+- [The comments to the solution] ()
+- [The code] ()
 
 
-## Move IT Moving company, Ruby, Sinatra, in Swedish
+### Move IT Moving company, Ruby, Sinatra, in Swedish
 Time to move!
 
 Here the extra challenge to spot the inconsistency in the requirements and the error in the estimation.
@@ -85,22 +83,22 @@ The presentation explain the technical and process decision given the goal and t
 
 
 Look at:
-- The assignment
-- The comments to the solution
-- The code
-- The presentation
+- [The assignment] ()
+- [The comments to the solution] ()
+- [The code] ()
+- [The presentation] ()
 
 
 
 
 
-# Small Problems, C#
+# Small Problems, C# 
 These coding tests focus on solving small coding problems the look simpler then they actually are.
 
 Look at:
-- The assignment
-- The comments to the solution
-- The code
+- [The assignment] ()
+- [The comments to the solution] ()
+- [The code] ()
 
 
 
