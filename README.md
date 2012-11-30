@@ -20,19 +20,6 @@ Look at:
 - [The code] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/DesignAndTdd/OfficeCleaner)
 
 
-### Mars Rover, Ruby
-A squad of robotic rovers are to be landed by NASA on Mars! An later on a sunny beach.
-
-The design of this solution try to find a good balance between simplicity and separation of concerns and run-time dependencies.
-
-
-Look at:
-- [The assignment] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/DesignAndTdd/mars_rovers/The%20Assignment.pdf?raw=true)
-- [The comments to the solution] (https://github.com/lucaminudel/CodingTestsAndSolutions/blob/master/DesignAndTdd/mars_rovers/The%20Solution%20-%20%20ReadMe.txt)
-- [The code] (https://github.com/lucaminudel/CodingTestsAndSolutions/tree/master/DesignAndTdd/mars_rovers)
-
-
-
 ### Multiplication Table, C# 
 Time to re-learn multiplication tables!
 
